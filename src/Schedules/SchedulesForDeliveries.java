@@ -46,6 +46,8 @@ public class SchedulesForDeliveries {
                 }
                 if(countDrones > 1){
                    startProceduresForAdding(j,tempStartTime,tempEndTime,countDrones,openWinId);
+                }else {
+                    //startPuting
                 }
 
             }
@@ -146,7 +148,7 @@ public class SchedulesForDeliveries {
         return true;
     }
 
-    public void startPutingToOpenWindows(){
+    public void startPutingToOpenWindows(double startTime,double endTime){
 
     }
 
